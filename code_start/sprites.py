@@ -5,4 +5,4 @@ class Sprite(pygame.sprite.Sprite):
 		super().__init__(groups)
 		self.image = pygame.Surface((TILE_SIZE,TILE_SIZE))
 		self.image.fill('white')
-		self.rect = self.image.get_frect(topleft = pos)
+		self.rect = self.image.get_rect(topleft = pos)
